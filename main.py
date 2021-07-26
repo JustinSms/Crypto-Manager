@@ -49,6 +49,6 @@ class Manager:
             writer.writerow(api_call_list)
 
 
-Manager = Manager( BTC_amount=0.08513419, ETH_amount=4.19800311, ADA_amount=2160.16510, principal=16510)
+Manager = Manager( BTC_amount=<amount>, ETH_amount=<amount>, ADA_amount=<amount>, principal=<amount>)
 Manager.determine_portfolio_value()
 Manager.store_data_in_csv()
